@@ -1,5 +1,5 @@
 Get your hands on a private key.
-To generate an Ethereum address and uncompressed public key:
+First generate an Ethereum address and uncompressed public key:
 ```
 cargo run generatekeypair <private key>
 ```
