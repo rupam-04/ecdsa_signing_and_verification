@@ -7,6 +7,7 @@ To sign anything using ECDSA(you can use the test image.jpg in the root director
 ```
 cargo run sign image.jpg <Private Key filename>
 ```
+The signature will get stored in a file name ECDSA_Signature.
 To verify the signature, first make sure the public key file has been created and replace <image.jpg> with your filename:
 ```
 cargo run verify image.jpg <Public Key filename> ECDSA_Signature
