@@ -1,4 +1,4 @@
-Get your hands on a private key.
+Get your hands on a 256 bit private key.
 First generate an Ethereum address and uncompressed public key:
 ```
 cargo run generatekeypair <private key>
