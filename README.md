@@ -1,5 +1,5 @@
 Get your hands on a 256 bits private key.
-First generate an Ethereum address and uncompressed public key:
+First generate an Ethereum address and uncompressed public key the following way:
 ```
 cargo run generatekeypair <private key>
 ```
